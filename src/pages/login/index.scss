@@ -1,0 +1,50 @@
+.login {
+  height: 100%;
+  width: 100%;
+  padding: 0 30px;
+  display: flex;
+  flex-direction: column;
+  .main-logo {
+    margin: 20px auto;
+    border-radius: 20px;
+    width: 618px;
+    height: 360px;
+  }
+  .main-slogan {
+    line-height: 62px;
+    letter-spacing: 10px;
+    color: rgba(166, 166, 166, 1);
+    font-size: 30px;
+    text-align: left;
+    font-weight: bold;
+  }
+  .register {
+    color: rgba(91, 196, 190, 1);
+    font-size: 32px;
+    line-height: 100px;
+  }
+  .agreement {
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    font-size: 26px;
+    .at-checkbox__option-cnt {
+      align-items: center;
+    }
+    .at-checkbox::before {
+      border: none;
+    }
+    .at-checkbox::after {
+      border: none;
+    }
+    .at-checkbox__title {
+      font-size: 26px;
+    }
+    .at-checkbox__option-wrap {
+      padding: 24rpx 0rpx 24rpx 0;
+    }
+    .agreement-url {
+      color: #586c94;
+    }
+  }
+}
